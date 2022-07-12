@@ -11,6 +11,7 @@ const Contact = () => {
     emailjs.sendForm('service_zdsz4mg', 'template_kiw64bn', form.current, 'jrpUfywm6812cmxte')
       .then((result) => {
           console.log(result.text);
+          setDone(true)
           form.reset();
       }, (error) => {
           console.log(error.text);
@@ -35,10 +36,8 @@ const Contact = () => {
           <textarea name="message" className="user" placeholder="Message"/>
           <input type="submit" value="Send" className="button"/>
           <span>{done && "Thanks for Contacting me"}</span>
-          <div
-            className="blur c-blur1"
-            style={{ background: "var(--purple)" }}
-          ></div>
+
+          <div className="blur c-blur1" style={{ background: "var(--purple)" }} ></div>
         </form>
       </div>
     </div>

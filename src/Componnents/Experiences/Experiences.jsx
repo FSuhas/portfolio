@@ -1,26 +1,31 @@
-import React from 'react'
+import React, { useContext } from "react";
 import './Experiences.css'
+import { themeContext } from "../../Context";
 
 const Experiences = () => {
+
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
-    <div className="experience">
+    <div className="experience" id='experience'>
       <div className="achievement">
-        <div className="circle">3+</div>
-          <span>months</span>
-          <span>experiences</span>
+        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>8+</div>
+        <span style={{color: darkMode?'white':''}}>years </span>
+        <span>Experience</span>
       </div>
       <div className="achievement">
-        <div className="circle">10+</div>
-          <span>completed</span>
-          <span>projects</span>
+        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>20+</div>
+        <span  style={{color: darkMode?'white':''}}>completed </span>
+        <span>Projects</span>
       </div>
       <div className="achievement">
-        <div className="circle">8+</div>
-          <span>compagnies</span>
-          <span>work</span>
+        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>5+</div>
+        <span  style={{color: darkMode?'white':''}}>companies </span>
+        <span>Work</span>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Experiences
+export default Experiences;

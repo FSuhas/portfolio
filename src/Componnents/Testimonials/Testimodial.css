@@ -20,6 +20,15 @@
   color: var(--orange);
 }
 
+.testimonial strong:nth-of-type(1) {
+  color: rgb(241, 62, 62);
+}
+
+.testimonial small:nth-of-type(1) {
+  font-size: .7rem;
+  color: var(--gray);
+}
+
 .t-blur1{
   left: 38rem;
   top: 16rem;

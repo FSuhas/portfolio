@@ -20,6 +20,8 @@ const Portfolio = () => {
 
       <span style={{color: darkMode?'white': ''}}>Recent Projects</span>
       <span>Portfolio</span>
+      <strong>!Disclainer!</strong>
+      <small>It is currently a fictitious project</small>
 
       {/* slider */}
 
@@ -30,16 +32,24 @@ const Portfolio = () => {
       className='portfolio-slider'
       >
         <SwiperSlide>
-          <img src={Sildebar} alt="" />
+          <a href="/" target={'_blank'} rel="noreferrer">
+            <img src={Sildebar} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <a href="/" target={'_blank'} rel="noreferrer">
+            <img src={Ecommerce} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+          <a href="/" target={'_blank'} rel="noreferrer">
+            <img src={HOC} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+          <a href="/" target={'_blank'} rel="noreferrer">
+            <img src={MusicApp} alt="" />
+          </a>
         </SwiperSlide>
       </Swiper>
 

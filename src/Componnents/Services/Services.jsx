@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 const Services = () => {
 
   const transition = {
-    duration: 1,
+    duration: 2,
     type: "spring",
   };
 
@@ -40,6 +40,13 @@ const Services = () => {
             initial={{ left: "25rem" }}
             whileInView={{ left: "14rem" }}
             transition={transition}
+            drag
+            dragConstraints={{
+              top: -100,
+              left: -100,
+              right: 100,
+              bottom: 100,
+            }}
         >
           <Card
             emoji = {HeartEmoji}
@@ -53,6 +60,13 @@ const Services = () => {
           initial={{ left: "-11rem", top: "12rem" }}
           whileInView={{ left: "-4rem" }}
           transition={transition}
+          drag
+          dragConstraints={{
+            top: -100,
+            left: -100,
+            right: 100,
+            bottom: 100,
+          }}
         >
           <Card
             emoji={Glasses}
@@ -66,7 +80,14 @@ const Services = () => {
           initial={{ top: "19rem", left: "25rem" }}
           whileInView={{ left: "12rem" }}
           transition={transition}
-        >
+          drag
+          dragConstraints={{
+            top: -100,
+            left: -100,
+            right: 100,
+            bottom: 100,
+          }}
+      >
           <Card
             emoji={Humble}
             heading={'UI/UX'}

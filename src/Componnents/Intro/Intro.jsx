@@ -68,6 +68,13 @@ const Intro = () => {
           transition={transition}
           src={glassesimoji}
           alt=""
+          drag
+          dragConstraints={{
+            top: -100,
+            left: -100,
+            right: 100,
+            bottom: 100,
+          }}
         />
 
         <motion.div

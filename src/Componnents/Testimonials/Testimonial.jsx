@@ -15,22 +15,22 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Great Job and reactivity! 😀",
     },
     {
       img: profilePic2,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Great Job and reactivity! 😀",
     },
     {
       img: profilePic3,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Great Job and reactivity! 😀",
     },
     {
       img: profilePic4,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Great Job and reactivity! 😀",
     },
   ];
 
@@ -40,12 +40,13 @@ const Testimonial = () => {
         <span>Clients always get </span>
         <span>Exceptional Work </span>
         <span>from me...</span>
-      <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
-      <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
 
+
+        <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
+        <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
       </div>
+
       <Swiper
-        // install Swiper modules
         modules={[Pagination]}
         slidesPerView={1}
         pagination={{ clickable: true }}
@@ -55,6 +56,8 @@ const Testimonial = () => {
             <SwiperSlide key={index}>
               <div className="testimonial">
                 <img src={client.img} alt="" />
+                <strong>!Disclainer!</strong>
+                <small>These are currently fictitious clients</small>
                 <span>{client.review}</span>
               </div>
             </SwiperSlide>

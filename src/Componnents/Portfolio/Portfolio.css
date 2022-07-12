@@ -18,6 +18,15 @@
   font-weight: bold;
 }
 
+.portfolio strong:nth-of-type(1) {
+  color: rgb(241, 62, 62);
+}
+
+.portfolio small:nth-of-type(1) {
+  font-size: .7rem;
+  color: var(--gray);
+}
+
 /* slider  */
 
 .portfolio .swiper {

@@ -2,14 +2,26 @@ import React, { useContext, useRef, useState } from "react";
 import "./Contact.css";
 import emailjs from '@emailjs/browser';
 import { themeContext } from "../../Context";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
+
+  const notify = () => toast.success('Thanks for Contacting me', {
+    position: "bottom-left",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+  });
 
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
 
   const form = useRef()
-  const [done, setDone] = useState(false)
+  const [setDone] = useState(false)
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -39,8 +51,19 @@ const Contact = () => {
           <input type="text" name="user_name" className="user"  placeholder="Name"/>
           <input type="email" name="user_email" className="user" placeholder="Email"/>
           <textarea name="message" className="user" placeholder="Message"/>
-          <input type="submit" value="Send" className="button"/>
-          <span>{done && "Thanks for Contacting me"}</span>
+
+          <input type="submit" value="Send" className="button" onClick={notify}/>
+              <ToastContainer
+                position="bottom-left"
+                autoClose={5000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+              />
 
           <div className="blur c-blur1" style={{ background: "var(--purple)" }} ></div>
         </form>

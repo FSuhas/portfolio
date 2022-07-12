@@ -24,7 +24,7 @@ function App() {
     >
       <Navbar />
       <Intro />
-      <Services id="service"/>
+      <Services />
       <Experience />
       <Works />
       <Portfolio />

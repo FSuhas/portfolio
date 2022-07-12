@@ -51,3 +51,12 @@
     display: none;
   }
 }
+
+.active {
+  color: var(--orange);
+}
+
+.active:hover {
+  cursor: pointer;
+  color: var(--orange);
+}

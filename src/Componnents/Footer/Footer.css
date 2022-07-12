@@ -33,5 +33,12 @@
 @media screen and (max-width: 480px){
   .f-content{
     transform: scale(.5);
+    color: black;
+  }
+  .footer img {
+    display: none;
+  }
+  .f-icons {
+    display: none;
   }
 }

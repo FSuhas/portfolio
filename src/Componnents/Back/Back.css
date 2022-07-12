@@ -1,0 +1,13 @@
+.back {
+  position: relative;
+  z-index: 999;
+  height: 62px;
+  width: 100%;
+}
+
+.sticky-nav {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  transition: ease-out 2s;
+}

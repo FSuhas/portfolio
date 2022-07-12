@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import './Notfound.scss'
+import '../Styles/Pages/Notfound.scss'
 
 const Notfound = () => {
   return (

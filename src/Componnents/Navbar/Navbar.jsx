@@ -4,6 +4,7 @@ import './Navbar.css';
 import {Link} from 'react-scroll'
 import { NavLink } from "react-router-dom";
 
+
 const Navbar = () => {
   return (
     <div className="n-wrapper">

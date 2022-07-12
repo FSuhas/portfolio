@@ -8,6 +8,7 @@ import Testimonial from '../Componnents/Testimonials/Testimonial';
 import Contact from '../Componnents/Contact/Contact';
 import Footer from '../Componnents/Footer/Footer';
 import Navbar from '../Componnents/Navbar/Navbar';
+import Back from '../Componnents/Back/Back';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Navbar />
       <Intro />
       <Services />
+      <Back />
       <Experience />
       <Works />
       <Portfolio />

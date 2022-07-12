@@ -26,17 +26,10 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Fabien Suhas</span>
-          <span>
-
-            After 15 years in sales and marketing, I am proud and fresh out of training at   Wagon #batch-860-paris. <br />
-
-            I want to consolidate my skills in Rails and train myself in the world of React Node Vu Typescripe by continuing to deepen my knowledge of Javascript. <br />
-
-            I have a great attraction for the front, from my past experiences, I am very interested in UI/UX, ergonomics, design. <br />
-
-            Motivated by this new universe, I learn and train myself with enthusiasm. <br />
-
+          <span>Full stack developer</span>
+          <span>After 15 years in sales and marketing, I am proud and fresh out of training at 'Le Wagon #batch-860-paris'.
+            <br /><br />
+                I have a great attraction for the front end, from my past experiences, I am very interested in UI/UX, ergonomics, design.
           </span>
 
         </div>
@@ -50,9 +43,6 @@ const Intro = () => {
           </a>
           <a href="https://www.linkedin.com/in/fabiensuhas/" target={'_blank'} rel="noreferrer">
             <img src={LinkedIn} alt="" />
-          </a>
-          <a href="https://www.linkedin.com/in/fabiensuhas/" target={'_blank'} rel="noreferrer">
-            <img src={Instagram} alt="" />
           </a>
         </div>
 

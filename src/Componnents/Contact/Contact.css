@@ -1,7 +1,7 @@
 .contact-form{
   padding: 0 3rem 0 3rem;
   display: flex;
-  height: 80vh;
+  height: 55vh;
   margin-top: 4rem;
     /* scroll */
   padding-top: 3rem;
@@ -20,7 +20,7 @@
   flex-direction: column;
   gap: 2rem;
   align-items: center;
-
+  z-index: 1;
 }
 
 .c-right .user{

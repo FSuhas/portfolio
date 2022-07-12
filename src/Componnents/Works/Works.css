@@ -1,7 +1,7 @@
 .works {
   padding: 0 3rem 0 3rem;
   display: flex;
-  height: 99vh;
+  height: 80vh;
   margin-top: 4rem;
 }
 
@@ -16,7 +16,7 @@
   height: 18rem;
   border-radius: 100%;
   box-shadow: var(--smboxShadow);
-  top: 2rem;
+  top: 5rem;
   background: white;
 }
 
@@ -78,13 +78,13 @@
 .blueCircle {
   background: #1949B8;
   left: 18rem;
-  top: 0rem;
+  top: 3rem;
 }
 
 .yellowCircle {
   background: #F5C32C;
   left: 18rem;
-  top: 8rem;
+  top: 11rem;
 }
 
 @media screen and (max-width: 480px) {

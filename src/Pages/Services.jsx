@@ -8,7 +8,7 @@ const Services = () => {
       <h1>🚧 On Working 🚧</h1>
       <p>Thank you for your interest, this section will be available soon</p>
       <p>(maj 13/07/22)</p>
-      <NavLink exact to="/">
+      <NavLink exact to="/" className={'button n-button'}>
         <span>Accueil</span>
       </NavLink>
     </div>

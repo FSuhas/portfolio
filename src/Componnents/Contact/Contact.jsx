@@ -65,7 +65,7 @@ const Contact = () => {
                 pauseOnHover
               />
 
-          <div className="blur c-blur1" style={{ background: "var(--purple)" }} ></div>
+          <div className="blur c-blur1" style={{ background: darkMode?"none": 'var(--purple)' }} ></div>
         </form>
       </div>
     </div>

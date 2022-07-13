@@ -23,8 +23,9 @@ const Services = () => {
       <div className="awesome">
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>Services</span>
-        <spane>Lorem ipsum dolor sit amet consectetur adipisicineeaeazeaze azeazeaeazeazeaeg elit aeaeazeze e e ae. <br />
-          Quam delectus ipsa quaerat.
+        <spane>I create websites or web applications. <br />
+        <br />
+              Starting from your idea, I create a model with you, then a prototype, and finally the realization of your project.
         </spane>
 
         <a href={Resume} dowmload target="_blank" rel='noreferrer'>
@@ -51,7 +52,7 @@ const Services = () => {
           <Card
             emoji = {HeartEmoji}
             heading = {'Design'}
-            detail = {'Figma, Sketch, Photoshop, Adobe'}
+            detail = {'Figma, Wireframe, User Journey, Prototype'}
           />
         </motion.div>
 
@@ -71,7 +72,7 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Developer"}
-            detail={"Html, Css, Javascript, Ruby, React, Rails"}
+            detail={"Html, Css, Javascript, Ruby, React, Rails, ..."}
           />
         </motion.div>
 
@@ -91,7 +92,7 @@ const Services = () => {
           <Card
             emoji={Humble}
             heading={'UI/UX'}
-            detail={'Lorem ipsum dolor sit amet consectetur adipisicing elit aeaeazeze e e ae.'}
+            detail={'Intuitive and pleasant navigation for your future users'}
           />
         </motion.div>
 

@@ -19,11 +19,11 @@ const Navbar = () => {
               <NavLink exact to="/">Home</NavLink>
             </li>
             <li>
-              <Link to="services" spy={true} smooth={true}>Serivces</Link>
+              <Link to="services" spy={true} smooth={true}>Services</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="works" spy={true} smooth={true}>Experience</Link>
-            </li>
+            </li> */}
             <li>
               <Link to="portfolio" spy={true} smooth={true}>Protfolio</Link>
             </li>

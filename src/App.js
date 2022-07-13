@@ -1,11 +1,10 @@
 import './App.css';
-
 import {themeContext} from './Context'
 import { useContext } from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Notfound from './Pages/Notfound';
 import Home from './Pages/Home';
-import Test from './Pages/Test'
+import Services from './Pages/Services'
 
 
 function App() {
@@ -22,7 +21,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home/>} />
-          <Route exact path="/test" element={<Test/>} />
+          <Route exact path="/services" element={<Services/>} />
           <Route path="*" element={<Notfound/>} />
         </Routes>
       </BrowserRouter>

@@ -8,7 +8,7 @@ const Card = ({emoji, heading, detail}) => {
       <img src={emoji} alt="" />
       <span>{heading}</span>
       <span>{detail}</span>
-      <NavLink exact to="/test" className='c-button' >
+      <NavLink exact to="/services" className='c-button' >
         LEARN MORE
       </NavLink>
     </div>

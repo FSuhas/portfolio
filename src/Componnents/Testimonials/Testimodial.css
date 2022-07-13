@@ -60,6 +60,10 @@
   color: var(--gray);
 }
 
+.testimonial:hover {
+  cursor: pointer;
+}
+
 
 /* slider */
 .t-wrapper .swiper {

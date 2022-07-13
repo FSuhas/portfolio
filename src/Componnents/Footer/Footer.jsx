@@ -22,7 +22,7 @@ const Footer = () => {
             <Gitub style={{ color: darkMode ? "white" : "" }} size={"3rem"} />
           </a>
         </div>
-        <span>Made with ❤️ by myself</span>
+        <span style={{ color: darkMode ? "white" : "" }}>Made with ❤️ by myself</span>
       </div>
     </div>
   );

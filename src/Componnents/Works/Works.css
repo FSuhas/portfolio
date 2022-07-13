@@ -114,4 +114,17 @@
   .yellowCircle {
     top: 7rem;
   }
+
+  .w-mainCircle > :nth-child(3) {
+    left: 5rem !important;
+  }
+  .w-mainCircle > :nth-child(4) {
+    left: 13rem !important;
+  }
+  .w-mainCircle > :nth-child(5) {
+    left: 5rem !important;
+  }
+  .w-mainCircle > :nth-child(1) {
+    left: 5rem !important;
+  }
 }

@@ -69,15 +69,16 @@
 }
 
 .i-right > :nth-child(1){
-  transform: scale(0.69);
-  left: -5%;
-  top: -9%;
+  transform: rotateZ(23deg);
+  left: 2%;
+  top: -11%;
 }
 
 .i-right > :nth-child(2){
   top: -4.6rem;
   transform: scale(0.67);
   left: -3rem;
+  z-index: -1;
 }
 
 .i-right > :nth-child(3){

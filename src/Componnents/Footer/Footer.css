@@ -8,7 +8,6 @@
 
 .footer img {
   position: static;
-  object-fit: none;
   width: 100%;
   bottom: 0;
   z-index: -1;
@@ -16,15 +15,28 @@
 
 .f-content {
   position: absolute;
-  bottom: 5px;
+  bottom: 103px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   width: 100%;
   gap: .5rem;
-  color: white;
+  color: var(--black);
 }
+
+.f-content a:hover {
+  color: var(--orange);
+}
+
+.f-content a:visited {
+  color: var(--black);
+}
+
+.f-content a:visited:hover {
+  color: var(--orange);
+}
+
 .f-icons {
   display: flex;
   gap: 2rem;
@@ -34,6 +46,7 @@
   .f-content{
     transform: scale(.5);
     color: black;
+    bottom: 15px !important;
   }
   .footer img {
     display: none;

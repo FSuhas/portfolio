@@ -1,4 +1,4 @@
-# It s my personnal portfolio
+# Learn React by portfolio
 
 You can see at: www.fabiensuhas.xyz
 
